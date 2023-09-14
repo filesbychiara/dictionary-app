@@ -1,0 +1,74 @@
+
+
+.Dictionary section{
+  /* background-color: aqua; */
+  margin: 40px 0;
+}
+
+.Dictionary input {
+  background-color: var(--l-search);
+  border: none;
+  border-radius: 12px;
+  color: var(--l-text);
+  padding: 12px 18px;
+  width: 100%;
+  font-weight: 700;
+}
+
+/* results */
+h2 {
+  font-size: 39px;
+  font-weight: 700;
+}
+
+/* phonetics */
+.Phonetic {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Phonetic .text{
+  color: var(--link);
+  font-size: 25px;
+}
+
+.Phonetic a{
+  color: var(--hover);
+  transition: all 150ms ease-in-out;
+  font-size: 50px;
+}
+
+
+.Phonetic a:hover {
+  color: var(--link);
+}
+
+/* meaning */
+
+.Meaning h3 {
+  font-size: 18px;
+font-weight: 700;
+font-style: italic;
+} 
+
+.Meaning p,
+.Meaning .example,
+.Synonyms p{
+  opacity: 0.7;
+}
+
+/* synonyms */
+
+.Synonyms {
+  margin: 24px 0 0 ;
+  padding: 0;
+}
+
+.Synonyms li{
+  display: inline-block;
+  color: var(--link);
+  font-weight: 700;
+  font-style: italic;
+}

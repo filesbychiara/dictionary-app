@@ -4,15 +4,15 @@ import Dictionary from "./Dictionary";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>DICTIONARY APP</h1>
-      </header>
       <div className="container">
+      <header>
+        <h1>dictionary app</h1>
+      </header>
       <main>
         <Dictionary />
       </main>
       <footer>
-        Coded by Chiara
+      <a href="/">Coded</a> by <a href="/">Chiara</a>
         </footer>
     </div>
     </div>

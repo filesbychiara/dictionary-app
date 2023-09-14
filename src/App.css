@@ -1,5 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,700&display=swap');
+
+:root {
+  --link:#a85a57;
+  --hover: #DCBDBC;
+
+  /* light theme */
+  --l-text: #3f3f3f;
+  --l-search: #f2f0f3;
+  --l-description: #747474;
+
+  /* dark theme */
+  --d-bg: #222;
+  
+}
+
+body {
+  line-height: 1.5;
+  font-family: 'PT Serif', serif;
+}
+
+header h1 {
+  font-size: 20px;
+  font-weight: 700;
+
+}
+
 footer {
-  margin: 16px;
+  font-size: 13px; 
   text-align: center;
- font-size: 13px; 
+}
+
+a{
+  color: var(--l-text);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--hover);
+}
+
+.container {
+  max-width: 700px;
+  padding: 24px;
 }

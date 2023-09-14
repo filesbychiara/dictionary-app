@@ -4,7 +4,7 @@ import Results from "./Results";
 import "./Dictionary.css";
 
 function Dictionary() {
-  let [keyword, setKeyword] = useState(""); 
+  let [keyword, setKeyword] = useState(" "); 
   let [results, setResults] = useState(null);
 
 function handleResponse(response) {
@@ -25,10 +25,14 @@ setKeyword(event.target.value);
 
 return (
   <div className="Dictionary">
+    <section>
     <form onSubmit={search}>
       <input type="search" onChange={handleKeywordChange} />
     </form>
+    </section>
+    <section>
     <Results results={results} />
+    </section>
   </div>
 );
 }
