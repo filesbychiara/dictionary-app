@@ -12,7 +12,7 @@ function App() {
         <Dictionary />
       </main>
       <footer>
-      <a href="/">Coded</a> by <a href="/">Chiara</a>
+      <a href="https://github.com/filesbychiara/dictionary-app" target="_blank" rel="noreferrer">Coded</a> by <a href="https://filesbychiara.netlify.app/" target="_blank" rel="noreferrer">Chiara</a>
         </footer>
     </div>
     </div>
