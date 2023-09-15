@@ -13,9 +13,6 @@ section:last-child {
 }
 
 .Dictionary form {
-  display: flex;
-  align-items: center;
-  justify-content: end;
   margin: 40px 0 0;
 }
 
