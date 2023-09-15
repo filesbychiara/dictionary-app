@@ -97,3 +97,8 @@ font-style: italic;
   font-style: italic;
   margin-right: 24px;
 }
+
+/* photos */
+img {
+  border-radius: 4px;
+}
