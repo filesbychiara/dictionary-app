@@ -13,8 +13,12 @@ section:last-child {
 }
 
 .Dictionary form {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   margin: 40px 0 0;
 }
+
 
 .searchBar {
   background-color: var(--l-search);
@@ -32,7 +36,7 @@ section:last-child {
   border: none;
   background: none;
   position: absolute;
-
+margin: 0 16px;
 }
 
 

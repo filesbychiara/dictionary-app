@@ -46,6 +46,7 @@ export default function Dictionary() {
             onChange={handleKeywordChange}
             className="searchBar"
           />
+          <button className="searchIcon"><i className="fa-solid fa-magnifying-glass"></i></button>
         </form>
       
       <section>
