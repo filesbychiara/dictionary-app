@@ -1,19 +1,43 @@
 
-
-.Dictionary section{
-  /* background-color: aqua; */
-  margin: 40px 0;
+section{
+  border-bottom: 1px solid var(--l-text);
+  padding: 16px 0;
 }
 
-.Dictionary input {
+section:first-child {
+  border: none;
+}
+
+section:last-child {
+  border: none;
+}
+
+.Dictionary form {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 40px 0 0;
+}
+
+.searchBar {
   background-color: var(--l-search);
   border: none;
-  border-radius: 12px;
+  border-radius: 8px;
   color: var(--l-text);
-  padding: 12px 18px;
-  width: 100%;
+  padding: 10px;
   font-weight: 700;
+  width: 100%;
+  text-transform: lowercase;
 }
+
+.searchIcon {
+  align-items: center;
+  border: none;
+  background: none;
+  position: absolute;
+
+}
+
 
 /* results */
 h2 {
@@ -71,4 +95,5 @@ font-style: italic;
   color: var(--link);
   font-weight: 700;
   font-style: italic;
+  margin-right: 24px;
 }

@@ -22,7 +22,10 @@ body {
 header h1 {
   font-size: 20px;
   font-weight: 700;
+}
 
+header h1 a:hover {
+color: var(--l-text);
 }
 
 footer {

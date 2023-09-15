@@ -4,7 +4,7 @@ function Phonetics(props) {
   return (
   <div className="Phonetic">
     <div className="text">{props.phonetic.text}</div>
-    <div><a href={props.phonetic.audio} target="_blank" rel="noreferrer"><i class="fa-solid fa-circle-play"></i></a></div>
+    <div><a href={props.phonetic.audio} target="_blank" rel="noreferrer"><i className="fa-solid fa-circle-play"></i></a></div>
     </div>
   );
 }
